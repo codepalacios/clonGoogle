@@ -10,26 +10,54 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
     />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+    />
   </head>
   <body>
     <header class="container1">
       <nav class="container1__menu">
         <ul class="container1__lista">
-          <li>Gmail</li>
-          <li>Im&aacute;genes</li>
-          <li>
+          <li class="container1__items">Gmail</li>
+          <li class="container1__items">Im&aacute;genes</li>
+          <li class="container1__items">
             <span class="material-symbols-outlined"> apps </span>
           </li>
-          <li>
-            <button>Iniciar sesi&oacute;n</button>
+          <li class="container1__items">
+            <a class="container1__session" href="/">Iniciar sesi&oacute;n</a>
           </li>
         </ul>
       </nav>
     </header>
-    <main>
-      <div></div>
-      <div></div>
-      <div></div>
+    <main class="container2">
+      <div class="container2__logo">
+        <picture class="container2__google">
+          <img
+            src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
+            alt="Google"
+          />
+        </picture>
+      </div>
+      <div class="container2__buscador">
+        <div class="container2__top">
+          <label class="container2__buscar" for="buscador">
+            <span class="container2 material-symbols-outlined"> search </span>
+            <input id="buscador" class="container2__busqueda" type="text" />
+            <picture class="container2__microfono">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/e/e8/Google_mic.svg"
+                alt="busqueda por voz"
+                class="container2__voz"
+              />
+            </picture>
+          </label>
+        </div>
+        <div class="container2__bottom">
+          Botones de prueba
+        </div>
+      </div>
+      <div class="container2__creditos">Texto de prueba</div>
     </main>
     <footer>
       <div></div>
